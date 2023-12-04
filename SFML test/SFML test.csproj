@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>SFML_test</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SFML.Net" Version="2.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="SFML.Audio">
+      <HintPath>E:\Collège Lionel Groulx\420-SF1-CLG\2023\AS\SFML.Net-2.5.1\src\SFML.Net\bin\Release\netstandard2.0\SFML.Audio.dll</HintPath>
+    </Reference>
+    <Reference Include="SFML.Graphics">
+      <HintPath>E:\Collège Lionel Groulx\420-SF1-CLG\2023\AS\SFML.Net-2.5.1\src\SFML.Net\bin\Release\netstandard2.0\SFML.Graphics.dll</HintPath>
+    </Reference>
+    <Reference Include="SFML.Net">
+      <HintPath>E:\Collège Lionel Groulx\420-SF1-CLG\2023\AS\SFML.Net-2.5.1\src\SFML.Net\bin\Release\netstandard2.0\SFML.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="SFML.System">
+      <HintPath>E:\Collège Lionel Groulx\420-SF1-CLG\2023\AS\SFML.Net-2.5.1\src\SFML.Net\bin\Release\netstandard2.0\SFML.System.dll</HintPath>
+    </Reference>
+    <Reference Include="SFML.Window">
+      <HintPath>E:\Collège Lionel Groulx\420-SF1-CLG\2023\AS\SFML.Net-2.5.1\src\SFML.Net\bin\Release\netstandard2.0\SFML.Window.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
